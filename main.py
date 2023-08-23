@@ -6,7 +6,7 @@ import seaborn as sns
 
 @st.cache_data()
 def load_data():
-    return pd.read_csv('/Users/ayush/Desktop/Data_analysis_app1/dataset/Data Science Salary 2021 to 2023.csv')
+    return pd.read_csv('dataset/Salary.csv')
 
 with st.spinner("loading dataset"):
     df=load_data()
